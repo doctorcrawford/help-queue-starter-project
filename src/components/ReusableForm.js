@@ -33,7 +33,7 @@ function ReusableForm(props) {
           style={inputStyles}
           name='issue'
           placeholder='Describe your issue.' />
-        <button style={inputStyles} type='submit'>{props.buttonText}</button>
+        <button style={buttonStyles} type='submit'>{props.buttonText}</button>
       </form>
     </React.Fragment>
   );
